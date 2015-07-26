@@ -159,6 +159,32 @@
     <section id="contact" class="row">
         <div class="container">
             <h1 class="inverse">Contact</h1>
+            <div class="row">
+              <div class="six columns">
+                <form action="php/sendmail.php" method="post">
+                  <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="text" class="form-control" id="email"  />
+                  </div>
+                  <div class="form-group">
+                    <label for="fullName">Full name</label>
+                    <input type="text" class="form-control" id="fullName"  />
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Your message</label>
+                    <textarea class="form-control" id="message" rows="7" cols="20"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </div>
+                </form>
+              </div>
+              <div class="six columns">
+              <iframe width='100%' height='300px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/annidavenport.map-c3aj60mb/attribution,share.html?access_token=pk.eyJ1IjoiYW5uaWRhdmVucG9ydCIsImEiOiJtZDBaS04wIn0.ka9PKkghK4QC05835s-5sA'></iframe>
+              </div>
+
+
+            </div>
         </div>
     </section>
 
