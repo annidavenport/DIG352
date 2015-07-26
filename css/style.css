@@ -1,35 +1,60 @@
+/* Hero Unit Section
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #hero-unit{
-    background-color: #394E53;
-    height: 600px;
+  background: transparent url('../images/hero-image.png') no-repeat center fixed;
+  background-size: cover;
+  height: 600px;
+  color: #fff;
+}
+#hero-unit .container {
+  height: 100%;
+  padding-top: 200px;
+}
+#hero-unit .container div {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+#hero-unit .tagline h2{
+  color: #fff;
+  font-size: 0.9em;
+  font-variant: small-caps;
+  font-family: 'Crimson Text', serif;
+  letter-spacing: 1em;
 }
 
 
-
+/* About Section
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #about{
-    background-color: #F7F7F7;
+  background-color: #F7F7F7;
 
 }
 
-
+/* Portfolio Section
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #portfolio{
-    background-color: #262626;
+  background-color: #262626;
 
 }
 
-
+/* Services Section
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #services{
-    background-color: #3C6070;
+  background-color: #3C6070;
 
 }
 
-
+/* Blog Section
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #blog{
-    background-color: #E5E5E5;
+  background-color: #E5E5E5;
 
 }
 
-
+/* Contact Section
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #contact{
-    background-color: #262626;
+  background-color: #262626;
 
 }

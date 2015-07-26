@@ -4,16 +4,24 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <section id="hero-unit" class="row">
       <div class="container">
-        <h1>Logo goes here</h1>
-      </div>
+        <div class="logo">
+          <img src="images/Logo.png">
+        </div>
+        <div class="tagline">
+          <h2>Freelance Web Development
+        </div>
+        <div class="call-to-action">
+          <i class="fa fa-angle-down"></i>
+        </div>
 
+
+      </div>
     </section>
 
     <!-- About Section
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <section id="about" class="row">
         <div class="container">
-
             <h1>About</h1>
         </div>
     </section>
