@@ -85,8 +85,16 @@ nav ul li a:hover {
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #services{
   background-color: #4B7382;
-
 }
+.service {
+  width: 100%;
+  min-height: 50px;
+  margin-bottom: 20px;
+  background-color: rgba(0,0,0,0.5);
+  padding:15px;
+  color: #fff;
+}
+
 
 /* Blog Section
   –––––––––––––––––––––––––––––––––––––––––––––––––– */

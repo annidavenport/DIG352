@@ -87,18 +87,30 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <section id="services" class="row">
       <div class="container row">
-        <h1 class="inverse">Services</h1>
-        <div class="four columns">
-          <i class="fa fa-pencil"></i>
-          <i class="fa fa-gears"></i>
-          <i class="fa fa-lightbulb-o"></i>
-          <i class="fa fa-paint-brush"></i>
-          <p>Little Tin Rocket exists to provide solutions that really fit the needs of cafes, bars, restaurants, artists, musicians, designers, photographers and other creative professionals. Unique businesses require custom responses to the technological landscape. Specialising in hospitality and creative portfolio websites and small business office infrastructure setup, Little Tin Rocket can help you engage with technology to enhance and support your creative endeavours.</p>
-        <img src="images/LaptopHands.png">
-        </div>
-        <div class="eight columns">
-          <div class="service">
+          <h1 class="inverse">Services</h1>
+        <div class="row">
 
+          <div class="four columns">
+            <i class="fa fa-pencil"></i>
+            <i class="fa fa-gears"></i>
+            <i class="fa fa-lightbulb-o"></i>
+            <i class="fa fa-paint-brush"></i>
+            <p>Little Tin Rocket exists to provide solutions that really fit the needs of cafes, bars, restaurants, artists, musicians, designers, photographers and other creative professionals. Unique businesses require custom responses to the technological landscape. Specialising in hospitality and creative portfolio websites and small business office infrastructure setup, Little Tin Rocket can help you engage with technology to enhance and support your creative endeavours.</p>
+          <img src="images/LaptopHands.png" class="img-responsive">
+          </div>
+          <div class="eight columns">
+            <div class="service">
+              <h3>Service</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis enim quis interdum dignissim. Sed at tristique eros, quis maximus ligula. Proin nisi libero, posuere quis euismod eget, elementum eu nibh. Quisque nec congue neque, eget ultrices nunc. Aenean at ligula eget orci rhoncus posuere ut in eros.</p>
+            </div>
+            <div class="service">
+              <h3>Service</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis enim quis interdum dignissim. Sed at tristique eros, quis maximus ligula. Proin nisi libero, posuere quis euismod eget, elementum eu nibh. Quisque nec congue neque, eget ultrices nunc. Aenean at ligula eget orci rhoncus posuere ut in eros.</p>
+            </div>
+            <div class="service">
+              <h3>Service</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis enim quis interdum dignissim. Sed at tristique eros, quis maximus ligula. Proin nisi libero, posuere quis euismod eget, elementum eu nibh. Quisque nec congue neque, eget ultrices nunc. Aenean at ligula eget orci rhoncus posuere ut in eros.</p>
+            </div>
           </div>
         </div>
       </div>
