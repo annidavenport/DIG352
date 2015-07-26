@@ -1,6 +1,7 @@
 section {padding: 50px 0;}
 body {position: relative;top: 0}
 img {width: 100%}
+.pull-right {float: right}
 /* Hero Unit Section
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #hero-unit{
@@ -109,3 +110,15 @@ nav ul li a:hover {
   background-color: #262626;
 
 }
+
+/* Footer Section
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer {background-color: #000;}
+footer nav {position: static;}
+footer nav ul {text-align: left}
+footer nav ul li {width: 100px;text-align: left}
+footer nav ul li a {}
+footer .social ul {padding-top: 7px;}
+footer .social img {height: 20px;width: auto;margin-left: 20px;padding: 5px;}
+footer .social ul li {display: inline-block;}
+footer .social ul li a{}

@@ -1,3 +1,4 @@
+<?php $server_url = "http://".$_SERVER["SERVER_NAME"].":8888/DIG352" ;?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
