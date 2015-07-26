@@ -48,7 +48,6 @@
   .column,
   .columns {
     margin-left: 4%;
-    border: 1px solid red;
   }
   .column:first-child,
   .columns:first-child {

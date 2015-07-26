@@ -1,11 +1,12 @@
-section {min-height: 300px;}
+section {padding: 50px 0;}
 body {position: relative;top: 0}
+.img-responsive {width: 100%}
 /* Hero Unit Section
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #hero-unit{
   background: transparent url('../images/hero-image.png') no-repeat center fixed;
   background-size: cover;
-  height: 600px;
+  height: 500px;
   color: #fff;
 }
 #hero-unit .container {
@@ -61,18 +62,29 @@ nav ul li a:hover {
   background-color: #F7F7F7;
 
 }
+.about-text {
+  border-left: 1px solid #323232;
+  margin-left: 15px;
+  padding-left: 35px;
+  padding-top: 15px;
+}
 
 /* Portfolio Section
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #portfolio{
   background-color: #262626;
-
 }
-
+#portfolio .row {margin-bottom: 20px;}
+#portfolio .portfolio-piece {
+  display: inline-block;
+}
+#portfolio .portfolio-piece img{
+  width: 100%;
+}
 /* Services Section
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #services{
-  background-color: #3C6070;
+  background-color: #4B7382;
 
 }
 
