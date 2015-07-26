@@ -119,9 +119,39 @@
     <!-- Blog Section
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <section id="blog" class="row">
-        <div class="container">
-            <h1>Blog</h1>
+      <div class="container">
+        <h1>Blog</h1>
+        <div class="blog-post row">
+          <div class="blog-image three columns">
+            <img src="https://placeimg.com/320/230/tech/grayscale" >
+          </div>
+          <div class="blog-excerpt nine columns">
+            <h4>Blog post 1</h4>
+            <p class="byline"> By Anni</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis enim quis interdum dignissim. Sed at tristique eros, quis maximus ligula. Proin nisi libero, posuere quis euismod eget, elementum eu nibh. Quisque nec congue neque, eget ultrices nunc. Aenean at ligula eget orci rhoncus posuere ut in eros.</p>
+          </div>
         </div>
+        <div class="blog-post row">
+          <div class="blog-image three columns">
+            <img src="https://placeimg.com/320/230/tech/grayscale" >
+          </div>
+          <div class="blog-excerpt nine columns">
+            <h4>Blog post 1</h4>
+            <p class="byline"> By Anni</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis enim quis interdum dignissim. Sed at tristique eros, quis maximus ligula. Proin nisi libero, posuere quis euismod eget, elementum eu nibh. Quisque nec congue neque, eget ultrices nunc. Aenean at ligula eget orci rhoncus posuere ut in eros.</p>
+          </div>
+        </div>
+        <div class="blog-post row">
+          <div class="blog-image three columns">
+            <img src="https://placeimg.com/320/230/tech/grayscale" >
+          </div>
+          <div class="blog-excerpt nine columns">
+            <h4>Blog post 1</h4>
+            <p class="byline"> By Anni</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis enim quis interdum dignissim. Sed at tristique eros, quis maximus ligula. Proin nisi libero, posuere quis euismod eget, elementum eu nibh. Quisque nec congue neque, eget ultrices nunc. Aenean at ligula eget orci rhoncus posuere ut in eros.</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Contact Section
