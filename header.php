@@ -30,9 +30,19 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript">
+    $(window).scroll(function() {
+      if ($(window).scrollTop() > 500) {
+          $('#nav').addClass('stuck');
+      } else {$('#nav').removeClass('stuck');}
+    });
+  </script>
 </head>
 <body>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="">
+  <div class="wrapper">

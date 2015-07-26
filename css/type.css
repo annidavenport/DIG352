@@ -11,6 +11,10 @@ a{
     font-family: 'Crimson Text', serif;
     text-decoration: none;
 }
+nav a{
+  font-family: 'Montserrat';
+  font-weight: lighter;
+}
 
 
 

@@ -13,10 +13,12 @@
         <div class="call-to-action">
           <i class="fa fa-angle-down"></i>
         </div>
-
-
       </div>
     </section>
+
+    <!-- Navbar
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <?php include('nav.php') ?>
 
     <!-- About Section
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
