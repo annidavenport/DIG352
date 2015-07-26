@@ -23,9 +23,21 @@
     <!-- About Section
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <section id="about" class="row">
-        <div class="container">
-            <h1>About</h1>
+      <div class="container">
+        <div class="row twelve columns">
+          <h1>About</h1>
         </div>
+        <div class="row">
+          <div class="six columns">
+            <h2>image</h2>
+          </div>
+          <div class="six columns">
+            <h2>text</h2>
+          </div>
+        </div>
+
+
+      </div>
     </section>
 
     <!-- Portfolio Section
