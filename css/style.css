@@ -21,7 +21,7 @@ img {width: 100%}
 }
 #hero-unit .tagline h2{
   color: #fff;
-  font-size: 1.7em;
+  font-size: 1.2em;
   font-variant: small-caps;
   font-family: 'Crimson Text', serif;
   letter-spacing: 1em;
@@ -42,7 +42,7 @@ nav ul li {
   display: inline-block;
   width: 15%;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 nav ul li a {
   color: #fff;
