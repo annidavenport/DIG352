@@ -38,7 +38,7 @@
             <p>I love the web, and the people who make it great. Little Tin Rocket is a collaborative effort of digital demon designers, multimedia wizards and ninja developers. So many possibilities! </p>
             <p>I do code. As a front-end UI developer, I like to take a holistic approach to development starting with standards compliant code and clean, functional design, then refining the experience using a well researched understanding of user experience issues. I believe that a well executed project should generate interest, as well as displaying content.</p>
 
-            <p>Explore services or see my portfolio</p>
+            <p>Explore <a href="#services">services</a> or see my <a href="#services">portfolio</a></p>
 
           </div>
         </div>
@@ -54,30 +54,34 @@
           <h1 class="inverse">Portfolio</h1>
           <div class="row">
             <div class="portfolio-piece three columns">
-              <!-- Placeholder image from http://placeimg.com -->
-              <img src="https://placeimg.com/320/230/tech/grayscale" />
+              <a class="fancybox" title="Tyranny of Distance - redesign 2014. <a href='http://tyrannyofdistance.com.au' target='_blank'>Visit Site</a>" rel="group" href="images/portfolio/tyranny-v2-large.jpg" >
+                <img src="images/portfolio/tyranny-v2.jpg" alt="" />
+              </a>
             </div>
             <div class="portfolio-piece three columns">
-              <!-- Placeholder image from http://placeimg.com -->
-              <img src="https://placeimg.com/320/230/tech/grayscale" />
+              <a class="fancybox" title="Ian Strange - Visual Artist <a href='http://ianstrange.com' target='_blank'>Visit Site</a>" rel="group" href="images/portfolio/ian-strange-large.jpg">
+                <img src="images/portfolio/ian-strange.jpg" alt="" />
+              </a>
             </div>
             <div class="portfolio-piece three columns">
-              <!-- Placeholder image from http://placeimg.com -->
-              <img src="https://placeimg.com/320/230/tech/grayscale" />
+              <a class="fancybox" title="Black Spice Studio - Interior and photographic styling. <a href='http://blackspicestudio.com.au' target='_blank'>Visit Site</a>" rel="group" href="images/portfolio/black-spice-large.jpg">
+                <img src="images/portfolio/black-spice.jpg" alt="" />
+              </a>
             </div>
             <div class="portfolio-piece three columns">
-              <!-- Placeholder image from http://placeimg.com -->
-              <img src="https://placeimg.com/320/230/tech/grayscale" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="portfolio-piece three columns">
-              <!-- Placeholder image from http://placeimg.com -->
-              <img src="https://placeimg.com/320/230/tech/grayscale" />
+              <a class="fancybox" title="The Psyde Projects. <a href='http://thepsydeprojects.com' target='_blank'>Visit Site</a>" rel="group" href="images/portfolio/tpp-large.jpg">
+                <img src="images/portfolio/tpp.jpg" alt="" />
+              </a>
             </div>
             <div class="portfolio-piece three columns">
-              <!-- Placeholder image from http://placeimg.com -->
-              <img src="https://placeimg.com/320/230/tech/grayscale" />
+              <a class="fancybox" title="Lounge - Melbourne institution for over 25 years. <a href='http://lounge.com.au' target='_blank'>Visit Site</a>" rel="group" href="images/portfolio/lounge-large.jpg">
+                <img src="images/portfolio/lounge.jpg" alt="" />
+              </a>
+            </div>
+            <div class="portfolio-piece three columns">
+              <a class="fancybox" title="Tyranny Of Distance - The original version, complete with custom built CMS." rel="group" href="images/portfolio/tyranny-large.jpg">
+                <img src="images/portfolio/tyranny.jpg" alt="" />
+              </a>
             </div>
           </div>
         </div>

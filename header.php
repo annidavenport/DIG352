@@ -41,6 +41,16 @@
       } else {$('#nav').removeClass('stuck');}
     });
   </script>
+  <!-- Fancybox scripts - Provided by FancyApps http://fancyapps.com/fancybox/
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+  <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+  <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+  <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
+  <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
+  <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
+  <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+
 </head>
 <body>
 

@@ -18,5 +18,20 @@
   </footer>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $(".fancybox").fancybox({
+          afterLoad: function() {
+              // this.title = '<a href="' + this.href + '">Download</a> ' + this.title;
+          },
+          helpers : {
+              title: {
+                  type: 'inside',
+                  position: 'top'
+              }
+          }
+      });
+    });
+  </script>
 </body>
 </html>

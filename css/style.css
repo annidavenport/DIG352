@@ -5,9 +5,9 @@ img {width: 100%}
 /* Hero Unit Section
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #hero-unit{
-  background: transparent url('../images/hero-image.png') no-repeat center fixed;
+  background: transparent url('../images/hero-image.jpg') no-repeat center fixed;
   background-size: cover;
-  height: 500px;
+  height: 600px;
   color: #fff;
 }
 #hero-unit .container {
