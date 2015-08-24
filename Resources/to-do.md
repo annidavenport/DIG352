@@ -1,7 +1,7 @@
 # TO-DO
 
 ## General
-Body text larger and line height bigger
+Body text larger and line height bigger **done**
 Title animated on reaching section
 Favicon
 
@@ -13,12 +13,12 @@ Nav typography and hover states
   - Fade in and out
   - Underline
   - Active section state
-Typography - bigger body font
+Typography - bigger body font **done**
 
 ## Portfolio
-  - Images
-  - Hover states with lightbox link
-  - Lightbox for further detail
+  - Images **done**
+  - Hover states with lightbox link **done**
+  - Lightbox for further detail **done**
 
 ## Services
 Copy for three services

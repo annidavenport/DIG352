@@ -63,7 +63,10 @@ a:hover {
 nav a{
   font-family: 'Montserrat';
 }
-
+nav a.active{
+  color:#E77A07!important;
+  text-decoration: underline;
+}
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button,

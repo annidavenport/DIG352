@@ -39,7 +39,17 @@
       if ($(window).scrollTop() > 500) {
           $('#nav').addClass('stuck');
       } else {$('#nav').removeClass('stuck');}
-    });
+
+    //Active section script
+      aObj = document.getElementById('nav').getElementsByTagName('a');
+      for(i=0;i<aObj.length;i++) {
+        console.log(aObj);
+        if(document.location.href.indexOf(aObj[i].href)>=0) {
+          aObj[i].className='active';
+        }else{aObj[i].className='';}
+      }
+
+});
   </script>
   <!-- Fancybox scripts - Provided by FancyApps http://fancyapps.com/fancybox/
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
