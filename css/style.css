@@ -1,5 +1,6 @@
+html{width: 100%;}
 section {padding: 50px 0;}
-body {position: relative;top: 0}
+body {position: relative;top: 0;width: 100%}
 img {width: 100%}
 .pull-right {float: right}
 /* Hero Unit Section
@@ -86,6 +87,11 @@ nav ul li a:hover {
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #services{
   background-color: #4B7382;
+}
+#services i{
+  color: #E77A07!important;
+  font-size: 3em;
+  padding: 10px;
 }
 .service {
   width: 100%;

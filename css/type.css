@@ -60,10 +60,11 @@ a {
 a:hover {
   color: #E77A07;
 }
-nav a{
+nav a, #nav-mobile a{
   font-family: 'Montserrat';
+  text-transform: uppercase;
 }
-nav a.active{
+nav a.active, #nav-mobile a.active{
   color:#E77A07!important;
   text-decoration: underline;
 }

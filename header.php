@@ -43,13 +43,31 @@
     //Active section script
       aObj = document.getElementById('nav').getElementsByTagName('a');
       for(i=0;i<aObj.length;i++) {
-        console.log(aObj);
         if(document.location.href.indexOf(aObj[i].href)>=0) {
           aObj[i].className='active';
         }else{aObj[i].className='';}
       }
 
-});
+    });
+  </script>
+  <script src="js/jquery.singlePageNav.min.js"></script>
+  <script>
+
+      // Prevent console.log from generating errors in IE for the purposes of the demo
+      if ( ! window.console ) console = { log: function(){} };
+
+      // The actual plugin
+      $('#nav').singlePageNav({
+          offset: $('#nav').outerHeight(),
+          filter: ':not(.external)',
+          updateHash: true,
+          beforeStart: function() {
+              console.log('begin scrolling');
+          },
+          onComplete: function() {
+              console.log('done scrolling');
+          }
+      });
   </script>
   <!-- Fancybox scripts - Provided by FancyApps http://fancyapps.com/fancybox/
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -60,10 +78,23 @@
   <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
   <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
   <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
-
+  <!-- Responsive Nav code - Brought to you by @viljamis http://responsive-nav.com/
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/responsive-nav.css">
+  <script src="js/responsive-nav.js"></script>
 </head>
 <body>
-
+  <div id="nav-mobile" >
+    <div class="nav-collapse">
+      <ul >
+        <li><a href="#hero-unit">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="wrapper">

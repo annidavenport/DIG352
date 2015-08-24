@@ -31,7 +31,7 @@ Images for three blog posts
 How to list archived posts?
 
 ## Contact
-Get form working
+Get form working - and add confirmation message
 Map picture fixed
 Hover state for submit button
 List location and details for if they don’t want to use the form

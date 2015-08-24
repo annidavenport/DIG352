@@ -4,8 +4,11 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <section id="hero-unit" class="row">
       <div class="container">
-        <div class="logo">
-          <img src="images/Logo.png" class="img-responsive">
+        <div class="logo hidden-mobile">
+          <img src="images/Logo.png" class="img-responsive ">
+        </div>
+        <div class="logo-mobile hidden-desktop">
+          <h1>Little Tin Rocket</h1>
         </div>
         <div class="tagline">
           <h2>Freelance Web Development
@@ -55,32 +58,34 @@
           <div class="row">
             <div class="portfolio-piece three columns">
               <a class="fancybox" title="Tyranny of Distance - redesign 2014. <a href='http://tyrannyofdistance.com.au' target='_blank'>Visit Site</a>" rel="group" href="images/portfolio/tyranny-v2-large.jpg" >
-                <img src="images/portfolio/tyranny-v2.jpg" alt="" />
+                <img src="images/portfolio/tyranny-v2-large.jpg" alt="" />
               </a>
             </div>
             <div class="portfolio-piece three columns">
               <a class="fancybox" title="Ian Strange - Visual Artist <a href='http://ianstrange.com' target='_blank'>Visit Site</a>" rel="group" href="images/portfolio/ian-strange-large.jpg">
-                <img src="images/portfolio/ian-strange.jpg" alt="" />
+                <img src="images/portfolio/ian-strange-large.jpg" alt="" />
               </a>
             </div>
             <div class="portfolio-piece three columns">
               <a class="fancybox" title="Black Spice Studio - Interior and photographic styling. <a href='http://blackspicestudio.com.au' target='_blank'>Visit Site</a>" rel="group" href="images/portfolio/black-spice-large.jpg">
-                <img src="images/portfolio/black-spice.jpg" alt="" />
+                <img src="images/portfolio/black-spice-large.jpg" alt="" />
               </a>
             </div>
             <div class="portfolio-piece three columns">
               <a class="fancybox" title="The Psyde Projects. <a href='http://thepsydeprojects.com' target='_blank'>Visit Site</a>" rel="group" href="images/portfolio/tpp-large.jpg">
-                <img src="images/portfolio/tpp.jpg" alt="" />
+                <img src="images/portfolio/tpp-large.jpg" alt="" />
               </a>
             </div>
+          </div>
+          <div class="row">
             <div class="portfolio-piece three columns">
               <a class="fancybox" title="Lounge - Melbourne institution for over 25 years. <a href='http://lounge.com.au' target='_blank'>Visit Site</a>" rel="group" href="images/portfolio/lounge-large.jpg">
-                <img src="images/portfolio/lounge.jpg" alt="" />
+                <img src="images/portfolio/lounge-large.jpg" alt="" />
               </a>
             </div>
             <div class="portfolio-piece three columns">
               <a class="fancybox" title="Tyranny Of Distance - The original version, complete with custom built CMS." rel="group" href="images/portfolio/tyranny-large.jpg">
-                <img src="images/portfolio/tyranny.jpg" alt="" />
+                <img src="images/portfolio/tyranny-large.jpg" alt="" />
               </a>
             </div>
           </div>
@@ -95,101 +100,60 @@
         <div class="row">
 
           <div class="four columns">
-            <i class="fa fa-pencil"></i>
-            <i class="fa fa-gears"></i>
-            <i class="fa fa-lightbulb-o"></i>
-            <i class="fa fa-paint-brush"></i>
+
             <p>Little Tin Rocket exists to provide solutions that really fit the needs of cafes, bars, restaurants, artists, musicians, designers, photographers and other creative professionals. Unique businesses require custom responses to the technological landscape. Specialising in hospitality and creative portfolio websites and small business office infrastructure setup, Little Tin Rocket can help you engage with technology to enhance and support your creative endeavours.</p>
           <img src="images/LaptopHands.png" class="img-responsive">
           </div>
           <div class="eight columns">
             <div class="service">
-              <h3>Service</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis enim quis interdum dignissim. Sed at tristique eros, quis maximus ligula. Proin nisi libero, posuere quis euismod eget, elementum eu nibh. Quisque nec congue neque, eget ultrices nunc. Aenean at ligula eget orci rhoncus posuere ut in eros.</p>
+              <h3>Custom Development work</h3>
+              <p>Whether you require a full website from scratch, simple changes to an existing website, or polishing of functionality, we can put together a customised quote for any work you require.</p>
             </div>
             <div class="service">
-              <h3>Service</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis enim quis interdum dignissim. Sed at tristique eros, quis maximus ligula. Proin nisi libero, posuere quis euismod eget, elementum eu nibh. Quisque nec congue neque, eget ultrices nunc. Aenean at ligula eget orci rhoncus posuere ut in eros.</p>
+              <h3>Information Architecture</h3>
+              <p>Websites require redesigns every few years to ensure developing business requirements are being met, and that user experience matches current expectations. Contact us today to book a consultation and review of your current website.</p>
             </div>
             <div class="service">
-              <h3>Service</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis enim quis interdum dignissim. Sed at tristique eros, quis maximus ligula. Proin nisi libero, posuere quis euismod eget, elementum eu nibh. Quisque nec congue neque, eget ultrices nunc. Aenean at ligula eget orci rhoncus posuere ut in eros.</p>
+              <h3>Social media strategy</h3>
+              <p>Having a base website is important for collated information, but it is also becoming more and more important to develop a rich ecosystem within social media to further develop your business's brand.  Consulting services are available to advise and plan your social media strategy.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Blog Section
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <section id="blog" class="row">
-      <div class="container">
-        <h1>Blog</h1>
-        <div class="blog-post row">
-          <div class="blog-image three columns">
-            <img src="https://placeimg.com/320/230/tech/grayscale" >
-          </div>
-          <div class="blog-excerpt nine columns">
-            <h4>Blog post 1</h4>
-            <p class="byline"> By Anni</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis enim quis interdum dignissim. Sed at tristique eros, quis maximus ligula. Proin nisi libero, posuere quis euismod eget, elementum eu nibh. Quisque nec congue neque, eget ultrices nunc. Aenean at ligula eget orci rhoncus posuere ut in eros.</p>
-          </div>
-        </div>
-        <div class="blog-post row">
-          <div class="blog-image three columns">
-            <img src="https://placeimg.com/320/230/tech/grayscale" >
-          </div>
-          <div class="blog-excerpt nine columns">
-            <h4>Blog post 1</h4>
-            <p class="byline"> By Anni</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis enim quis interdum dignissim. Sed at tristique eros, quis maximus ligula. Proin nisi libero, posuere quis euismod eget, elementum eu nibh. Quisque nec congue neque, eget ultrices nunc. Aenean at ligula eget orci rhoncus posuere ut in eros.</p>
-          </div>
-        </div>
-        <div class="blog-post row">
-          <div class="blog-image three columns">
-            <img src="https://placeimg.com/320/230/tech/grayscale" >
-          </div>
-          <div class="blog-excerpt nine columns">
-            <h4>Blog post 1</h4>
-            <p class="byline"> By Anni</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis enim quis interdum dignissim. Sed at tristique eros, quis maximus ligula. Proin nisi libero, posuere quis euismod eget, elementum eu nibh. Quisque nec congue neque, eget ultrices nunc. Aenean at ligula eget orci rhoncus posuere ut in eros.</p>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- Contact Section
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <section id="contact" class="row">
-        <div class="container">
-            <h1 class="inverse">Contact</h1>
-            <div class="row">
-              <div class="six columns">
-                <form action="php/sendmail.php" method="post">
-                  <div class="form-group">
-                    <label for="email">Email address</label>
-                    <input type="text" class="form-control" id="email"  />
-                  </div>
-                  <div class="form-group">
-                    <label for="fullName">Full name</label>
-                    <input type="text" class="form-control" id="fullName"  />
-                  </div>
-                  <div class="form-group">
-                    <label for="message">Your message</label>
-                    <textarea class="form-control" id="message" rows="7" cols="20"></textarea>
-                  </div>
-                  <div class="form-group">
-                    <button type="submit" class="btn btn-default">Submit</button>
-                  </div>
-                </form>
+      <div class="container">
+        <h1 class="inverse">Contact</h1>
+        <div class="row">
+          <div class="six columns">
+            <form action="sendmail.php" method="post">
+              <div class="form-group">
+                <label for="fullName">Full name</label>
+                <input type="text" class="form-control" name="fullName" id="fullName">
               </div>
-              <div class="six columns">
-              <iframe width='100%' height='300px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/annidavenport.map-c3aj60mb/attribution,share.html?access_token=pk.eyJ1IjoiYW5uaWRhdmVucG9ydCIsImEiOiJtZDBaS04wIn0.ka9PKkghK4QC05835s-5sA'></iframe>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="text" class="form-control" name="email" id="email">
               </div>
 
-
-            </div>
+              <div class="form-group">
+                <label for="message">Your message</label>
+                <textarea class="form-control" name="message" id="message" rows="7" cols="20"></textarea>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-default">Submit</button>
+              </div>
+          </form>
+          </div>
+          <div class="six columns">
+          <iframe width='100%' height='300px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/annidavenport.map-c3aj60mb/attribution,share.html?access_token=pk.eyJ1IjoiYW5uaWRhdmVucG9ydCIsImEiOiJtZDBaS04wIn0.ka9PKkghK4QC05835s-5sA'></iframe>
+          </div>
         </div>
+      </div>
     </section>
 
 <?php include('footer.php') ?>
